@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Notes Keeper Pro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Notes Keeper Pro is a simple and user-friendly note-taking application built with React.js and Redux, using localStorage for persistent storage. It allows you to create, update, delete, view, and search notes efficiently.
 
-## Available Scripts
+## 🔗 Live Demo
 
-In the project directory, you can run:
+*https://noteskeeperpro.netlify.app*
 
-### `npm start`
+## 💡 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Create and update notes
+* View individual notes
+* Delete single notes with confirmation
+* Search notes by title
+* Copy note content to clipboard
+* Persist notes using browser localStorage
+* Responsive design with clean UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔧 Tech Stack
 
-### `npm test`
+* React.js
+* Redux Toolkit
+* React Router DOM
+* Tailwind CSS
+* React Hot Toast (Notifications)
+* Font Awesome Icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Folder Structure
 
-### `npm run build`
+```text
+src/
+├── components/
+│   ├── Home.js
+│   ├── Navbar.js
+│   ├── Notes.js
+│   └── ViewNote.js
+├── redux/
+│   └── notesSlice.js
+├── App.js
+└── store.js
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚡ Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone the repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/salarahmedmemon/notes-keeper-pro.git
+```
 
-### `npm run eject`
+### 2. Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Run the development server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔗 Author
 
-## Learn More
+* Developed by **\[SALAR AHMED MEMON]**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔗 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and free to use.
